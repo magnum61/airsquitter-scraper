@@ -14,7 +14,9 @@ Make sure SSH access is possible and the device is accessible via WiFi. Follow t
 Log in via SSH on the Raspberry pi
 ssh pi@<ip adres pi>
 Run the following command: 
+
 curl https://raw.githubusercontent.com/magnum61/airsquitter-scraper/master/install.sh | bash
+
 In /home/pi, modify the file 'airsquitter-settings.json' as desired. See below for explanation of all settings.
 
 Start the program as a service:
