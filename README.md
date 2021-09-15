@@ -28,9 +28,9 @@ Settings
 All settings are located in a file 'airsquitter-settings.json'. The settings are as follows:
 
 api_url: The location of the AirSquitter aircraflist.json file.
-lamin, lamax, lomin, lomax: These 4 parameters specify the geographic area to filter on when retrieving flights.
-poll_interval: The interval at which the device is queried, in seconds.
-max_geo_altitude: The maximum altitude of a flight for registration in the CSV file, in meters. If the flight is above this limit, it will not be registered in the CSV file.
+  lamin, lamax, lomin, lomax: These 4 parameters specify the geographic area to filter on when retrieving flights.
+  poll_interval: The interval at which the device is queried, in seconds.
+  max_geo_altitude: The maximum altitude of a flight for registration in the CSV file, in meters. If the flight is above this limit, it will not be registered in the CSV file.
 min_geo_altitude: The minimum altitude of a flight for registration in the CSV file, in meters.
 log_file: The location of a (debug) log file in which all responses from the API are logged 1 to 1 unfiltered.
 csv_file: The location of the CSV file in which all flights meeting all criteria are written. The file name can contain "date formatting characters" to periodically write a new file. For an overview of formatting characters to use, see: https://strftime.org/ The default example uses "airsquitter-flights-%m.csv", which will write a new file each month, with the month number in the file name, padded with a '0'.
